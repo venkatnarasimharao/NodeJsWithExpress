@@ -3,7 +3,8 @@ require('dotenv').config();
 
 const Configrations = {
     server : {
-        port : process.env.PORT
+        port : process.env.PORT,
+        host : process.env.HOST
     }
 }
 
